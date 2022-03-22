@@ -54,37 +54,6 @@ $sitelink = '';
 
         gtag('config', 'UA-142998658-1');
     </script>
-    <!-- <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark')
-        } else {
-            document.documentElement.classList.remove('dark')
-        }
-        localStorage.theme = 'light';
-        // Whenever the user explicitly chooses dark mode
-        localStorage.theme = 'dark';
-        // Whenever the user explicitly chooses to respect the OS preference
-        localStorage.removeItem('theme');
-    </script>
-    <script>
-        function activateDarkMode() {
-            document.documentElement.classList.add('dark');
-        }
-
-        window.matchMedia("(prefers-color-scheme: dark)").addListener(
-            e => e.matches && activateDarkMode()
-        );
-    </script> -->
-    <!--<script>
-        const a = window.matchMedia("(prefers-color-scheme: dark)");
-        console.log(a.matches);
-
-        if (a.matches == true) {
-            // alert('working');
-            document.documentElement.classList.add('dark');
-            localStorage.theme = 'dark';
-        }
-    </script> -->
     <style>
         .pymnt_dialog {
             position: fixed;

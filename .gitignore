@@ -27,6 +27,8 @@ mtiFontTrackingCode.js
 /pesapal
 /dist
 /debug/css-dist
+/db
+/css-dist
 
 # misc
 .DS_Store
