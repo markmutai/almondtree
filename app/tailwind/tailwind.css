@@ -1,0 +1,140 @@
+@tailwind base;
+.almnd_bg {
+    @apply bg-gradient-to-br from-almndPink to-almndBlue;
+}
+
+#toggle:checked~label div.toggle_dot {
+    @apply translate-x-6;
+}
+
+.chnk_styl {
+    @apply bg-bgray-50 bg-opacity-70 text-gray-900;
+}
+
+.chnk_styl-bg {
+    @apply bg-bgray-50 bg-opacity-70 text-gray-900;
+}
+
+.flex_mdl {
+    @apply flex justify-center;
+}
+
+.flex_cntr_mdl {
+    @apply flex items-center justify-center;
+}
+
+.bdr_solid {
+    @apply border-t-2 border-gray-300 border-opacity-30;
+}
+
+.bdr_solid-b {
+    @apply border-b-2;
+}
+
+.bdr_dotted {
+    @apply border-t-4 border-dotted border-lime-700 border-opacity-25;
+}
+
+.bdr_dotted-b {
+    @apply border-b-4 border-dotted border-lime-700 border-opacity-25;
+}
+
+.bdr_social {
+    @apply border-r-2 border-opacity-25 border-gray-500;
+}
+
+@tailwind components;
+@screen phone {
+    .almnd_tg-phone {
+        @apply text-xs tracking-wideish;
+    }
+    .chnk_pdn-phone {
+        @apply py-6 px-12;
+    }
+    .txt-phone {
+        @apply text-sm leading-7;
+    }
+    .btn_styl-phone {
+        @apply h-almndSm text-xs;
+    }
+    .social-phone {
+        @apply text-lg text-gray-500;
+    }
+}
+
+@screen sm {
+    .chnk_pdn-sm {
+        @apply py-6 px-12;
+    }
+    .txt-sm {
+        @apply text-xs leading-7;
+    }
+    .btn_styl-sm {
+        @apply h-almndSm;
+    }
+    .social-md {
+        @apply text-lg text-gray-500;
+    }
+}
+
+@screen md {
+    .almnd_tg-md {
+        @apply text-xs tracking-wider;
+    }
+    .chnk_pdn-md {
+        @apply py-6 px-12;
+    }
+    .txt-md {
+        @apply text-mini leading-8;
+    }
+    .btn_styl-md {
+        @apply text-xs;
+    }
+}
+
+@acreen lg {
+    .chnk_pdn-lg {
+        @apply py-6 px-16;
+    }
+    .txt-lg {
+        @apply text-sm leading-8;
+    }
+}
+
+@screen xl {
+    .almnd_tg-xl {
+        @apply text-sm;
+    }
+    .chnk_pdn-xl {
+        @apply py-7 px-20;
+    }
+    .txt-xl {
+        @apply leading-10;
+    }
+    .btn_styl-xl {
+        @apply h-almndLg text-sm;
+    }
+    .social-xl {
+        @apply text-xl text-gray-500;
+    }
+}
+
+@screen 2xl {
+    .almnd_tg-2xl {
+        @apply text-tiny;
+    }
+    .chnk_pdn-2xl {
+        @apply py-8 px-24;
+    }
+    .txt-2xl {
+        @apply text-base leading-10;
+    }
+    .btn_styl-2xl {
+        @apply h-almndXl text-tiny;
+    }
+    .social-2xl {
+        @apply text-2xl text-gray-500;
+    }
+}
+
+@tailwind utilities;

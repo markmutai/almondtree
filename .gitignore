@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+#files
+gulpfile.js
+gulp-backup.js
+tailwind.config.js
+msg.php
+pymnt_frm.php
+pymnt_fail.php
+pymnt.php
+mtiFontTrackingCode.js
+
+# testing
+/coverage
+
+# production
+/build
+
+#private_files
+/app/dl
+/phpmailer
+/pesapal
+/dist
+/debug/css-dist
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+#logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+debug.log

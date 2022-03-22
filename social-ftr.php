@@ -1,0 +1,6 @@
+<div class="phone:pt-2 md:pt-2.5 lg:pt-3 phone:mt-5 md:mt-7 lg:mt-8 phone:pt-2 phone:pb-4 xl:mt-8 phone:pt-4 phone:text-base lg:text-lg xl:text-xl 2xl:text-2xl social-links msg-social-links border-t-2 border-gray-300 border-opacity-25 dark:border-gray-50 dark:border-opacity-10 text-gray-500 dark:text-gray-50">
+    <a href="https://www.facebook.com/almondtreewellnesskenya" alt="facebook" target="_blank"><i class="phone:px-6 md:px-5 lg:px-6 xl:px-8 2xl:px-10 fab fa-facebook-f border-r-2 border-opacity-25 border-gray-500 dark:border-gray-50 dark:border-opacity-10"></i></a>
+    <a href="https://www.linkedin.com/company/the-almond-tree-wellness-center" alt="linkedin" target="_blank"><i class="phone:px-6 md:px-5 lg:px-6 xl:px-8 2xl:px-10 fab fa-linkedin-in border-r-2 border-opacity-25 border-gray-500 dark:border-gray-50 dark:border-opacity-10"></i></a>
+    <!-- <a href="" alt="zoom meeting"><i class="phone:px-6 md:px-5 lg:px-6 xl:px-8 2xl:px-10 fas fa-video border-r-2 border-opacity-25 border-gray-500 dark:border-gray-50 dark:border-opacity-10"></i></a> -->
+    <a href="https://api.whatsapp.com/send/?phone=254713896905&text=I%27m+inquiring+from+the+website+about+the+services+you+offer%3F&app_absent=0" alt="whatsapp" target="_blank"><i class="phone:pl-6 md:pl-5 lg:pl-6 xl:pl-8 2xl:pl-10 phone:pr-6 md:pr-0 fab fa-whatsapp border-r-2 fa-tatwc-last"></i></a>
+</div>
