@@ -14,7 +14,7 @@ include('top-atwc.php');
             <img class="portrait:h-72 sm:h-52 md:h-56 lg:h-64 2xl:h-almnd2xxl" src="app/img/logo.webp" alt="The Almond Tree Wellness Center" title="The Almond Tree Wellness Center">
         </a>
     </div>
-    <video autoplay loop class="beach-vid" id="video">
+    <video autoplay loop class="beach-vid" id="video" poster="app/img/backscrshot.webp">
         <source class="tatwc-beach" id="beachVid" src="app/vid/background.mp4" type="video/mp4" />
     </video>
     <script>
