@@ -766,7 +766,7 @@ video {
   }
 
   .txt-phone {
-    font-size: .875rem;
+    font-size: .75rem;
   }
 
   .txt-phone {
@@ -1571,6 +1571,11 @@ video {
   color: rgba(56, 189, 248, var(--tw-text-opacity));
 }
 
+.dark .dark\:text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgba(75, 85, 99, var(--tw-text-opacity));
+}
+
 .dark .dark\:text-gray-200 {
   --tw-text-opacity: 1;
   color: rgba(229, 231, 235, var(--tw-text-opacity));
@@ -1584,16 +1589,6 @@ video {
 .dark .dark\:text-gray-500 {
   --tw-text-opacity: 1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
-}
-
-.dark .dark\:text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgba(59, 130, 246, var(--tw-text-opacity));
-}
-
-.dark .dark\:text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgba(75, 85, 99, var(--tw-text-opacity));
 }
 
 .dark .dark\:text-opacity-80 {
@@ -1883,10 +1878,6 @@ video {
 
   .md\:text-left {
     text-align: left;
-  }
-
-  .md\:text-right {
-    text-align: right;
   }
 
   .md\:text-xs {

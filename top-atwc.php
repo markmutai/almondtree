@@ -21,7 +21,7 @@ $sitelink = '';
     <link rel="stylesheet" type="text/css" href="<?php echo $sitelink ?>/app/css/normalize.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $sitelink ?>/app/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $sitelink ?>/app/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="<?php echo $sitelink ?>/app/css/tailwind.css">
+    <link rel="stylesheet" type="text/css" href="<?php echo $sitelink ?>/app/css/tailwind.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo $sitelink ?>/app/css/style.min.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -157,7 +157,7 @@ $sitelink = '';
                         <a class="nav-link nav-booking" href="javascript:void(0)" data-toggle="modal" data-target="#consent-modal">Bookings</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-pymnt" href="../pymnt.php">Payments</a>
+                        <a class="nav-link nav-pymnt" href="https://payments.pesapal.com/almondtreewellness" target="_blank">Payments</a>
                     </li>
                     <!-- <script>
                         $('.nav-booking').click(function() {

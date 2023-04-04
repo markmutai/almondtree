@@ -1,4 +1,5 @@
 @tailwind base;
+
 .almnd_bg {
     @apply bg-gradient-to-br from-almndPink to-almndBlue;
 }
@@ -44,19 +45,24 @@
 }
 
 @tailwind components;
+
 @screen phone {
     .almnd_tg-phone {
         @apply text-xs tracking-wideish;
     }
+
     .chnk_pdn-phone {
         @apply py-6 px-12;
     }
+
     .txt-phone {
-        @apply text-sm leading-7;
+        @apply text-xs leading-7;
     }
+
     .btn_styl-phone {
         @apply h-almndSm text-xs;
     }
+
     .social-phone {
         @apply text-lg text-gray-500;
     }
@@ -66,12 +72,15 @@
     .chnk_pdn-sm {
         @apply py-6 px-12;
     }
+
     .txt-sm {
         @apply text-xs leading-7;
     }
+
     .btn_styl-sm {
         @apply h-almndSm;
     }
+
     .social-md {
         @apply text-lg text-gray-500;
     }
@@ -81,12 +90,15 @@
     .almnd_tg-md {
         @apply text-xs tracking-wider;
     }
+
     .chnk_pdn-md {
         @apply py-6 px-12;
     }
+
     .txt-md {
         @apply text-mini leading-8;
     }
+
     .btn_styl-md {
         @apply text-xs;
     }
@@ -96,6 +108,7 @@
     .chnk_pdn-lg {
         @apply py-6 px-16;
     }
+
     .txt-lg {
         @apply text-sm leading-8;
     }
@@ -105,15 +118,19 @@
     .almnd_tg-xl {
         @apply text-sm;
     }
+
     .chnk_pdn-xl {
         @apply py-7 px-20;
     }
+
     .txt-xl {
         @apply leading-10;
     }
+
     .btn_styl-xl {
         @apply h-almndLg text-sm;
     }
+
     .social-xl {
         @apply text-xl text-gray-500;
     }
@@ -123,15 +140,19 @@
     .almnd_tg-2xl {
         @apply text-tiny;
     }
+
     .chnk_pdn-2xl {
         @apply py-8 px-24;
     }
+
     .txt-2xl {
         @apply text-base leading-10;
     }
+
     .btn_styl-2xl {
         @apply h-almndXl text-tiny;
     }
+
     .social-2xl {
         @apply text-2xl text-gray-500;
     }

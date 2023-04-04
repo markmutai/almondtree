@@ -54,6 +54,8 @@ Sass_Stuff
 
 */
 
+@use "sass:math";
+
 /* 
 Animations-----------------------------------------------------------------------------------------
 */
@@ -98,12 +100,8 @@ Functions-----------------------------------------------------------------------
 
 $html-font-size: 16px;
 
-@function stripUnit($value) {
-  @return $value / ($value * 0 + 1);
-}
-
 @function rem($pxValue) {
-  @return #{stripUnit($pxValue) / stripUnit($html-font-size)}rem;
+  @return math.div($pxValue, 16px) * 1rem;
 }
 
 // Mixins-----------------------------------------------------------------------------------------
